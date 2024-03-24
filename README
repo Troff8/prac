@@ -1,0 +1,9 @@
+# Приложение при получении GET запроса сохраняет ip и задает рандомный номер запросу, возвращает обновленную таблицу
+git clone 
+docker compose up  #запуск контейнера
+localhost:8000 # return json
+# Данные останутся в бд после перезапуска контейнеров
+docker compose down
+docker compose up
+localhost:8000
+
